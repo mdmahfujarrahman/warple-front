@@ -1,5 +1,5 @@
 //style
-import "./Home.css";
+import "./home.css";
 
 // layout components
 import Banner from "../../components/layout/Banner/Banner";
