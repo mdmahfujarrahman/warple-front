@@ -1,0 +1,60 @@
+/* 
+  import fonts from google fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;500;600;800;900&display=swap');
+
+/* 
+  define global variables for colors
+*/
+:root{
+  --textPrimary: #000000;
+  --textSecondary: #1A35C9;
+  --testTernary:#ffffff;
+  --backgroundPrimary: #ffffff;
+  --backgroundSecondary: #F4F4F4;
+  --backgroundTernary:#FFD0CC;
+  --borderPrimary: #FFD0CC;
+  --borderSecondary: #1A35C9;
+  --buttonBackground:#1A35C9;
+  --buttonBorderRadis: 80px;
+  --boxShadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+  define font  size for responsive design
+*/
+html {
+  font-size: 10px;
+}
+
+ol, ul {
+	list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, input {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+::-webkit-scrollbar-thumb {
+  padding: 5px;
+  background-color: var(--textSecondary);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#warple{
+  overflow: hidden;
+}
