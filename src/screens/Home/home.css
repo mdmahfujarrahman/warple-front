@@ -1,0 +1,17 @@
+.homeTrciket{
+    /* overflow: hidden !important; */
+}
+.leftPlaneHome{
+    top: -25%;
+    left: 10%;
+}
+.rightPlaneHome{
+    top: 63% !important;
+    right: -18% !important;
+}
+.rightPlaneHome img{
+    width: 141px;
+}
+.leftPlaneHome img{
+    width: 141px;
+}

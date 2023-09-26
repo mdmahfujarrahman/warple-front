@@ -1,0 +1,20 @@
+.footerWarrper{
+    width: 100%;
+}
+
+.footerLearge{
+    width: 100%;
+}
+.footerMobile{
+    display: none;
+}
+
+@media screen and  (max-width: 767px){
+    .footerLearge{
+        display: none;
+    }
+    .footerMobile{
+        display: block;
+        width: 100%;
+    }
+}

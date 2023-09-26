@@ -9,7 +9,7 @@ import searchIcon from "./searchIcon.png";
 import airplane from "./airplane.png";
 import planeRight from "./planeRight.png";
 import planeLeft from "./planeLeft.png";
-import startIcon from "./dotIcon.png"
+import startIcon from "./dotIcon.png";
 
 // content Image
 import warpleInfo from "./warpleInfo.png";
@@ -21,11 +21,15 @@ import ponitTwo from "./points/point2.png";
 import ponitThree from "./points/point3.png";
 
 // Uee
-import step1 from "./HowtoUee/step1.png"
-import document from "./HowtoUee/document.png"
-import dollor from "./HowtoUee/dollor.png"
-import email from "./HowtoUee/email.png"
-import warpleSearch from "./HowtoUee/warpleSearch.png"
+import step1 from "./HowtoUee/step1.png";
+import document from "./HowtoUee/document.png";
+import dollor from "./HowtoUee/dollor.png";
+import email from "./HowtoUee/email.png";
+import warpleSearch from "./HowtoUee/warpleSearch.png";
+
+// footer
+import footerLearge from "./footerlarge.jpg";
+import footerMobile from "./footerMobile.png";
 
 export const warpleImage = {
     logo,
@@ -38,7 +42,7 @@ export const warpleImage = {
     planeRight,
     planeLeft,
     NextArrow,
-    startIcon
+    startIcon,
 };
 
 export const warpleCotentImage = {
@@ -55,6 +59,10 @@ export const warpleUse = {
     email,
     dollor,
     document,
-    warpleSearch
+    warpleSearch,
 };
 
+export const warpleFooter = {
+    footerLearge,
+    footerMobile,
+};

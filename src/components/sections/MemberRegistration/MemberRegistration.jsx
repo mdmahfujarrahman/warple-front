@@ -3,9 +3,9 @@ import CustomButton from "../../../ui/Button/CustomButton";
 import Arrow from "../../layout/Arrow/Arrow";
 import "./MemberRegistration.css";
 
-const MemberRegistration = ({ classIdLeftPlane, classIdRightPlane }) => {
+const MemberRegistration = ({ classIdLeftPlane, classIdRightPlane, classIdMian }) => {
     return (
-        <div className="memberRegistrationWrapper">
+        <div className={`memberRegistrationWrapper ${classIdMian}`}>
             <div className="memberRegistration">
                 <p className="memberRegistrationTitle  memberRegistrationfirstTitle">
                     会員登録でお得なクーポン

@@ -28,8 +28,8 @@
 .memberRegistrationfirstTitle::before{
     content: '';
     position: absolute;
-    top: 2px;
-    left: 34%;
+    top: 38%;
+    left: 37%;
     width: 108px;
     height: 30px;
     background-color: var(--backgroundPrimary);
@@ -38,8 +38,8 @@
 .memberRegistrationfirstTitle::after{
     content: '';
     position: absolute;
-    top: 2px;
-    right: 37%;
+    top: 38%;
+    right: 39%;
     width: 108px;
     height: 30px;
     background-color: var(--backgroundPrimary);
@@ -74,7 +74,7 @@
 
 .planeRight{
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
     right: 0;
 }
 .planeLeft{
